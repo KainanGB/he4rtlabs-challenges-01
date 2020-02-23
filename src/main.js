@@ -23,32 +23,3 @@ button.addEventListener('click', () =>{
      return resultado.innerHTML= `Valor p/hora: ${valorHora.toFixed(2)}R$`
   }
 })
-
-// let valorHora = totalValue / (daysPerWeek * 4 * hoursPerDay) + ( vacPerProject * daysPerWeek * hoursPerDay)
-
-
-
-
-
-
-
-
-
-// button.addEventListener('click', () =>{
-//   const horasDia = document.querySelectorAll('.inputs')[0].value
-//   const diasSemana = document.querySelectorAll('.inputs')[1].value
-//   const ferias = document.querySelectorAll('.inputs')[2].value
-//   const valorTotal = document.querySelectorAll('.inputs')[3].value
-  
-//   let valorHora = valorTotal / (diasSemana * 4 * horasDia) + ( ferias * diasSemana * horasDia)
-
-  
-//    if(isNaN(valorHora)){
-//    hide.removeAttribute('style')
-//    return resultado.innerHTML= 'Prencha todos os valores corretamente'.fontcolor('#c295d8')
-//   } else {
-//    hide.removeAttribute('style')
-//    resultado.style.fontWeight = 800
-//     return resultado.innerHTML= `Valor p/hora: ${valorHora.toFixed(2)}R$`
-//  }
-// })
