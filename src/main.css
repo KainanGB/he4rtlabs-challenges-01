@@ -45,6 +45,7 @@ body h5{
 input{
   font-size: 0.85rem;
   font-family: 'Open Sans', sans-serif;
+  border: none;
 }
 
 #main h4{
