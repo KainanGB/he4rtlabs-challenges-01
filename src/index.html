@@ -1,15 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calculadora de Freela - He4rtDevs</title>
-    <link rel="stylesheet" href="./main.css" />
-  </head>
-  <body>
-    <div>
-      <h1>Olá mundo.</h1>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora de Freela - He4rtDevs</title>
+  <link rel="stylesheet" href="./main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  
+  <img class="logo" src="img/he4rt_logo.png" alt="">
+  <h5>Designed and Coded by Kainan Gabriel</h5>
+  
+  <div id="content">
+    <h1>Calculadora de Freelas</h1>
+    <p> <span style="font-weight: 800"">Objetivo do desafio:</span> O projeto tem a finalidade de descrever alguns fatores determinantes para você saber o seu
+      valor em um freelance.</p>
+  </div>
+  <div id="main">
+    <div id="calculos">
+      <h4>Horas por dia</h4>
+      <input type="text" class="inputs" placeholder="Horas">
     </div>
-    <script src="./main.js"></script>
-  </body>
+    <div id="calculos">
+      <h4>Dias por Semana</h4>
+      <input type="text" class="inputs" placeholder="Dias">
+    </div>
+    <div id="calculos">
+      <h4>Férias por Projeto</h4>
+      <input type="text" class="inputs" placeholder="Dias de Férias">
+    </div>
+    <div id="calculos" >
+      <h4>Valor Total do Projeto</h4>
+      <input type="text" class="inputs" placeholder="Valor total">
+  </div>
+</div>
+
+<div style="opacity: 0;" class="result"><span id="resultado">.</span></div>
+  <div><button id="button">Calcular</button></div>
+
+  <footer id="footer">
+    <p>Este desafio foi desenvolvido pelo grupo <span><a href="http://heartdevs.com/">He4rt Developers</a></span> para
+      uso livre da comunidade.</p>
+  </footer>
+  <script src="./main.js"></script>
+</body>
+
 </html>
